@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/Logo_finer.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Finer</title>
+  </head>
+  <body>
+    <!-- CSS -->
+    <style>
+      .add_friend:hover,
+      .watch:hover,
+      .community:hover {
+        background-color: #cecdcd48;
+        border-radius: 5px;
+      }
+    </style>
+    <!-- Header -->
+    <header>
+      <nav class="container">
+        <!-- Global -->
+        <div class="global">
+          <div class="logo_finer">
+            <a href="index.html"
+              ><img src="./img/Logo_finer.png" alt="logo_finer" />
+            </a>
+          </div>
+          <!-- search -->
+          <div class="search">
+            <input
+              type="text"
+              placeholder="What do you want to finding?"
+              id="search"
+            />
+            <a href="#search"
+              ><img src="./img/nav/search_icon.png" alt="search"
+            /></a>
+          </div>
+        </div>
+        <!-- Often choose -->
+        <ul class="often-choose">
+          <li class="home highlight">
+            <a href="main.html"
+              ><img
+                src="./img/nav/home_boild.png"
+                alt="home"
+                style="margin-top: 2px"
+            /></a>
+          </li>
+          <li class="add_friend">
+            <a href="#"
+              ><img
+                src="./img/nav/friend.png"
+                alt="add_friend"
+                style="margin-top: 2px"
+            /></a>
+          </li>
+          <li class="watch">
+            <a href="#"
+              ><img
+                src="./img/nav/screen.png"
+                alt="watch"
+                style="margin-top: 2px"
+            /></a>
+          </li>
+          <li class="community">
+            <a href="#"
+              ><img
+                src="./img/nav/community.png"
+                alt="community"
+                style="margin-top: 2px"
+            /></a>
+          </li>
+        </ul>
+        <!-- Sometime choose -->
+        <ul class="soti-choose">
+          <li class="menu">
+            <a href="#"><img src="./img/nav/menu.png" alt="menu" /></a>
+          </li>
+          <li class="message">
+            <a href="#"><img src="./img/nav/message.png" alt="message" /></a>
+          </li>
+          <li class="notification">
+            <a href="#"
+              ><img src="./img/nav/notification.png" alt="notification"
+            /></a>
+          </li>
+          <li class="setting">
+            <a href="#"><img src="./img/nav/settings.png" alt="setting" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Menu -->
+      <aside class="all-choose">
+        <form action="">
+          <div class="gt-usr-pg" style="margin-top: 10px">
+            <img src="./img/user.png" alt="user-avt" />
+            <h4>Tun Tuana</h4>
+          </div>
+          <div class="add-fr">
+            <img src="./img/all-choose/friends.png" alt="add_friend" />
+            <h4>Friend</h4>
+          </div>
+          <div class="mess">
+            <img src="./img/all-choose/chatting.png" alt="messenger" />
+            <h4>Messenger</h4>
+          </div>
+          <div class="saved">
+            <img src="./img/all-choose/bookmark.png" alt="saved" />
+            <h4>Saved</h4>
+          </div>
+          <div class="group">
+            <img src="./img/all-choose/./group.png" alt="group" />
+            <h4>Group</h4>
+          </div>
+          <div class="mmry">
+            <img src="./img/all-choose/clock.png" alt="memmory" />
+            <h4>Memmory</h4>
+          </div>
+          <div id="more" style="margin-bottom: 5px">
+            <img
+              src="./img/all-choose/down-arrow.png"
+              alt="more"
+              style="background-color: #d9d9d9; border-radius: 50%"
+            />
+            <h4>Xem thêm</h4>
+          </div>
+        </form>
+        <hr />
+        <p class="hidden-letters">Recently accessed group</p>
+        <form action="" id="group">
+          <div id="group1">
+            <div
+              class="gr-img"
+              style="
+                background-image: url(./img/all-choose/group/11223325_10205961897264849_7145367785135904374_n.jpg);
+              "
+            ></div>
+            <h4>HTML, CSS & Javascript</h4>
+          </div>
+          <div id="group2">
+            <div
+              class="gr-img"
+              style="
+                background-image: url(./img/all-choose/group/240655429_4059163764195718_3652059374269714525_n.jpg);
+              "
+            ></div>
+            <h4>Cộng đồng Front-end (HTML/CSS/JS) Việt Nam</h4>
+          </div>
+          <div id="group3">
+            <div
+              class="gr-img"
+              style="
+                background-image: url(./img/all-choose/group/334040839_745694333578074_5436709829938606504_n.jpg);
+              "
+            ></div>
+            <h4>Cộng đồng Sinh Viên IT</h4>
+          </div>
+          <div id="group4">
+            <div
+              class="gr-img"
+              style="
+                background-image: url(./img/all-choose/group/414660117_337449359064199_1118970846377274421_n.jpg);
+              "
+            ></div>
+            <h4>UX/UI Designer Community - @Figma</h4>
+          </div>
+          <div id="group5">
+            <div
+              class="gr-img"
+              style="
+                background-image: url(./img/all-choose/group/420652426_7276098132433087_5792406377969071991_n.jpg);
+              "
+            ></div>
+            <h4>Hội anh em Chân Long 2016</h4>
+          </div>
+        </form>
+        <p style="color: #b1b1b1">Quyền riêng tư Bản quyền &copy; Tuana 2024</p>
+      </aside>
+      <!-- Post -->
+      <section class="post">
+        <!-- story -->
+        <article class="story">
+          <form action="" style="display: none; width: max-content">
+            <div style="display: flex">
+              <div
+                class="main-usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <div
+                  style="
+                    height: 40px;
+                    width: 40px;
+                    background-color: rgb(250, 90, 90);
+                    border-radius: 50%;
+                    transform: translateY(40%);
+                    background-repeat: no-repeat;
+                    background-size: 50%;
+                    background-position: center;
+                    background-image: url(./img/add.png);
+                    border: 4px solid rgb(255, 240, 240);
+                  "
+                ></div>
+                <div
+                  style="
+                    height: auto;
+                    width: 100%;
+                    background-color: rgb(255, 240, 240);
+                    border-radius: 10px;
+                    border: 1px solid;
+                    justify-content: center;
+                    text-align: center;
+                  "
+                >
+                  <p style="margin: 15px 0 15px 0">Create Story</p>
+                </div>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+            </div>
+          </form>
+          <form action="" style="display: none; width: max-content">
+            <div style="display: flex">
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+            </div>
+          </form>
+          <form action="" style="display: none; width: max-content">
+            <div style="display: flex">
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+            </div>
+          </form>
+          <form action="" style="display: none; width: max-content">
+            <div style="display: flex">
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+              <div
+                class="usr-str"
+                style="background-image: url(./img/user.png)"
+              >
+                <p style="margin-bottom: 15px; color: rgb(255, 240, 240)">
+                  Name
+                </p>
+              </div>
+            </div>
+          </form>
+        </article>
+        <!-- posts up-->
+        <article class="posts-up">
+          <div class="normal">
+            <img src="./img/user.png" alt="user-avt" id="user-avt" />
+
+            <input type="text" id="post-text" placeholder="What do you feel?" />
+          </div>
+          <hr />
+          <div class="more">
+            <div class="video">
+              <img src="./img/film.png" alt="video-ico" />
+              <b>Video</b>
+            </div>
+            <div class="img">
+              <img src="./img/picture.png" alt="img-ico" />
+              <b>Image</b>
+            </div>
+            <div class="feeling">
+              <img src="./img/smile.png" alt="feeling-ico" />
+              <b>Feeling/Action</b>
+            </div>
+          </div>
+        </article>
+        <article class="posts"></article>
+      </section>
+      <!-- Chatting -->
+      <aside class="chatting"></aside>
+    </main>
+  </body>
+</html>
